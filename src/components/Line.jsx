@@ -1,3 +1,4 @@
+import "../App.css"
 export default function Line(props){
     let color,size;
     if(props.status === "Successful"){
@@ -50,7 +51,7 @@ export default function Line(props){
         </>
         }
       </div>
-      <hr style={{ borderColor:"grey", marginLeft:25, marginRight:25}}/>
+      <hr id="line"style={{ borderColor:"grey", marginLeft:25, marginRight:25}}/>
         </>
 
     )

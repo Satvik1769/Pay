@@ -13,7 +13,7 @@ export default function Card(props){
 
    }
     return(
-        <div className={`mt-5 w-1/3 mr-7 `}>
+        <div className={`mt-5  mr-7 flex-shrink-0 w-1/3 sm:w-full md:w-full lg:w-full xl:w-1/3 p-2`}>
             <div className={`p-1 py-4 px-2 rounded-t-xl `} style={{ backgroundColor: background }}>
             <div className={`flex align-center text-${textColor}`}>
             <h1 className=" mr-2 mb-5 ">{props.title}</h1>

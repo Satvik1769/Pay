@@ -25,6 +25,13 @@
   #nav{
     max-width: 650px;
   }
-
-  
+  #table{
+    max-width: 600px;
+  }
+  #line{
+    max-width: 600px;
+  }
+  #sort{
+    max-width: 600px;
+  }
   }

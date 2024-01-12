@@ -5,12 +5,12 @@ import Hero from "../components/Hero";
 
 export default function Overview(){
     return(
-    <div className="flex bg-background w-[42rem]h-screen">
-        <div className="relative z-20">
+    <div className="flex bg-background w-[42rem] h-screen">
+        <div className="">
         <Head/>
         </div>
         
-        <div className="relative z-10">
+        <div className="">
             <Nav/>
             <Hero/> 
   

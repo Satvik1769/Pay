@@ -1,6 +1,7 @@
+import "../App.css"
 export default function Nav(){
 return(
-<div className="flex justify-between mt-2  2xl:mt-4 w-[72rem]">
+<div className="flex justify-between mt-4 w-[72rem]" id="nav">
                 <div className="flex">
         <h1 className="text-lg mx-10">Payouts</h1>
         <div className="flex item-center">

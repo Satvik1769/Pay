@@ -2,3 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@media only screen and (max-width: 600px) {
+  #down{
+    width: 300px;
+  }
+  #text{
+    font-size: medium;
+  }
+  #text2{
+    font-size:xx-small;
+  }
+  #logo{
+    height: 30px;
+    width: 30px;
+  }
+  #item{
+    font-size: small;
+  }
+  #image{
+    margin-right: 10px;
+  }
+  #nav{
+    max-width: 650px;
+  }
+
+  
+  }

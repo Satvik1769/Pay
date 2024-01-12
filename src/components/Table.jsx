@@ -9,7 +9,7 @@ export default function Table(props){
       }
     return(
         <>
-<div className="flex w-[68rem] bg-wh ml-7">
+<div className="flex w-[68rem] bg-wh ml-7 mt-7" id="table" style={{ backgroundColor:"2px solid black"}}>
   <div className={`w-1/${5} ml-7`}>
     <h1>Order ID</h1>
   </div>
@@ -44,7 +44,7 @@ export default function Table(props){
 
   }
 </div>
-<Line size = {size} orderId="#281209" status="Successful" tx="131634495747" refund="Today,8:45 PM" order="1,125" order2="10,125" txFees ="1,125" total="9312"/>    
+          <Line size = {size} orderId="#281209" status="Successful" tx="131634495747" refund="Today,8:45 PM" order="1,125" order2="10,125" txFees ="1,125" total="9312"/>    
             <Line  size = {size} orderId="#281208" status="Pending" tx="131634495747" refund="Yesterday,8:45 PM" order="1,125" order2="10,125" txFees ="1,125" total="9312"/>    
             <Line  size = {size} orderId="#281207" status="Successful" tx="131634495747" refund="12 Jul 2023,8:45 PM" order="1,125" order2="10,125" txFees ="1,125" total="9312"/>    
             <Line  size = {size} orderId="#281206" status="Successful" tx="131634495747" refund="12 Jul 2023,8:45 PM" order="1,125" order2="10,125" txFees ="1,125" total="9312"/>    

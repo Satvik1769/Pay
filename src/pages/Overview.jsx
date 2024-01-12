@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 
 export default function Overview(){
     return(
-    <div className="flex bg-background w-[42rem] h-screen">
+    <div className="flex bg-background w-[120rem] h-screen" >
         <div className="">
         <Head/>
         </div>

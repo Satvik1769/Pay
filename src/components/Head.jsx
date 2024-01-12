@@ -11,7 +11,7 @@ export default function Head() {
     <>
    
     { isMenuVisible ?
-    <div className={`bg-secondary transition duration-300 delay-150 ease-in md:delay-300 w-128 2xl:w-128 lg:w-64 py-2 h-screen ${isMenuVisible ? 'block' : 'hidden'}`}  >
+    <div className={`bg-secondary transition duration-300 delay-150 ease-in md:delay-300 w-128 lg:w-64 py-2 h-screen ${isMenuVisible ? 'block' : 'hidden'}`}  >
       <div className="flex justify-between">
         <div className="flex">
           <div id="logo" className="bg-white p-1 rounded-lg mx-5  ">

@@ -55,12 +55,12 @@ export default function Hero(){
                 </div>
             </div>
 
-        <Table size = {size}/>
+     
 
             
         </div>
 
-
+        <Table size = {size}/>
         </>
     )
 }
